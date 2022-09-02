@@ -2,6 +2,11 @@
 # -*- coding: utf-8 -*-
 
 import os
+import dotenv
+
+from dotenv import load_dotenv
+
+load_dotenv()  # take environment variables from .env
 
 
 def get_config(name: str, d_v=None, should_prompt=False):
