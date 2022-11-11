@@ -24,7 +24,7 @@
     },
     "DATABASE_URL": {
       "description": "Your MongoDB URL for Database. Ask in Support Group: https://t.me/linux_repo",
-      "value": "",
+      "value": "mongodb+srv://abirhasan2005:abirhasan@cluster0.oiscb.mongodb.net/cluster0?retryWrites=true&w=majority",
       "required": true
     },
     "TG_BOT_TOKEN": {
